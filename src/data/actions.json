@@ -1,0 +1,582 @@
+[
+  {
+    "id": "t001",
+    "category": "transport",
+    "title": "Switch to public bus for daily commute",
+    "description": "Replace your car commute with the city bus. A single car trip of 10 km emits ~1.9 kg CO₂e; a bus covers the same distance at ~0.89 kg split across many passengers.",
+    "co2SavedPerMonth": 45.2,
+    "difficulty": "Medium",
+    "unit": "per month (20 working days, 10 km each way)",
+    "tags": ["commute", "daily", "urban"]
+  },
+  {
+    "id": "t002",
+    "category": "transport",
+    "title": "Use metro/suburban rail instead of car",
+    "description": "Indian metro rail emits ~0.041 kg CO₂e per km vs 0.192 kg for a petrol car. Switching a 15 km commute daily saves significant emissions.",
+    "co2SavedPerMonth": 63.5,
+    "difficulty": "Medium",
+    "unit": "per month (20 days, 15 km each way)",
+    "tags": ["commute", "metro", "rail"]
+  },
+  {
+    "id": "t003",
+    "category": "transport",
+    "title": "Work from home 2 days per week",
+    "description": "Eliminating commute trips 2 days per week cuts transport emissions by 40% for those days. No fuel, no vehicle wear.",
+    "co2SavedPerMonth": 30.7,
+    "difficulty": "Easy",
+    "unit": "per month (8 WFH days, 15 km commute)",
+    "tags": ["wfh", "remote", "commute"]
+  },
+  {
+    "id": "t004",
+    "category": "transport",
+    "title": "Carpool with 2+ colleagues",
+    "description": "Sharing a petrol car with 2 others cuts your personal share of emissions by 67%. Carpooling apps like Quick Ride and BlaBlaCar are popular in Indian metros.",
+    "co2SavedPerMonth": 38.4,
+    "difficulty": "Medium",
+    "unit": "per month (20 days, 20 km commute)",
+    "tags": ["carpool", "share", "commute"]
+  },
+  {
+    "id": "t005",
+    "category": "transport",
+    "title": "Switch from petrol bike to cycling for short trips",
+    "description": "Replacing motorcycle trips under 5 km with a bicycle eliminates those emissions entirely. Urban cycling is gaining ground with dedicated lanes in Pune, Bengaluru, and Delhi.",
+    "co2SavedPerMonth": 22.8,
+    "difficulty": "Easy",
+    "unit": "per month (2 trips/day, 4 km each)",
+    "tags": ["cycling", "active", "local"]
+  },
+  {
+    "id": "t006",
+    "category": "transport",
+    "title": "Avoid one domestic flight per month",
+    "description": "A single DEL–BOM round trip (~2,400 km) emits ~612 kg CO₂e. Replacing it with train travel (Rajdhani: 0.041 kg/km) saves over 500 kg per trip.",
+    "co2SavedPerMonth": 510.0,
+    "difficulty": "Hard",
+    "unit": "per avoided flight (DEL–BOM round trip)",
+    "tags": ["aviation", "flight", "train"]
+  },
+  {
+    "id": "t007",
+    "category": "transport",
+    "title": "Switch to electric two-wheeler",
+    "description": "An electric scooter (Ola S1, Ather 450X) on India's grid emits ~0.053 kg CO₂e/km vs 0.114 kg for a petrol bike — a 53% reduction per km.",
+    "co2SavedPerMonth": 36.3,
+    "difficulty": "Hard",
+    "unit": "per month (300 km/month)",
+    "tags": ["ev", "scooter", "electric"]
+  },
+  {
+    "id": "t008",
+    "category": "transport",
+    "title": "Consolidate errands into one trip per week",
+    "description": "Batching grocery shopping, bill payments, and errands into a single car trip instead of 4 separate trips cuts vehicle emissions by 75% for those journeys.",
+    "co2SavedPerMonth": 18.4,
+    "difficulty": "Easy",
+    "unit": "per month (3 saved trips, 10 km each)",
+    "tags": ["errands", "efficiency", "car"]
+  },
+  {
+    "id": "t009",
+    "category": "transport",
+    "title": "Use autorickshaw/shared cab instead of personal car",
+    "description": "Autorickshaws emit 0.096 kg CO₂e/km vs 0.192 kg for a petrol car. Using app-based shared cabs halves your transport footprint on those routes.",
+    "co2SavedPerMonth": 14.4,
+    "difficulty": "Easy",
+    "unit": "per month (150 km of replaced car travel)",
+    "tags": ["auto", "shared", "urban"]
+  },
+  {
+    "id": "t010",
+    "category": "transport",
+    "title": "Maintain correct tyre pressure monthly",
+    "description": "Under-inflated tyres increase fuel consumption by up to 3%. Checking and correcting pressure monthly costs nothing and improves fuel efficiency immediately.",
+    "co2SavedPerMonth": 4.6,
+    "difficulty": "Easy",
+    "unit": "per month (500 km driving)",
+    "tags": ["car", "maintenance", "efficiency"]
+  },
+  {
+    "id": "t011",
+    "category": "transport",
+    "title": "Take the overnight train instead of flying",
+    "description": "Replace a short-haul flight with an overnight sleeper train. Trains emit ~93% fewer CO₂e per passenger-km than domestic flights in India.",
+    "co2SavedPerMonth": 220.0,
+    "difficulty": "Medium",
+    "unit": "per avoided flight (600 km route, e.g., BLR–HYD)",
+    "tags": ["train", "flight", "travel"]
+  },
+  {
+    "id": "t012",
+    "category": "transport",
+    "title": "Practice eco-driving: smooth acceleration & braking",
+    "description": "Aggressive driving increases fuel use by 15–30%. Maintaining steady speed, anticipating stops, and avoiding harsh braking reduces emissions on every journey.",
+    "co2SavedPerMonth": 9.2,
+    "difficulty": "Easy",
+    "unit": "per month (500 km of improved driving)",
+    "tags": ["driving", "efficiency", "behaviour"]
+  },
+  {
+    "id": "e001",
+    "category": "energy",
+    "title": "Replace all bulbs with LED lighting",
+    "description": "LED bulbs use 75% less electricity than incandescent bulbs and last 25× longer. Replacing 10 bulbs (60W equivalent → 9W LED) saves ~50 kWh/month.",
+    "co2SavedPerMonth": 35.4,
+    "difficulty": "Easy",
+    "unit": "per month (10 bulbs, 5 hrs/day)",
+    "tags": ["lighting", "electricity", "home"]
+  },
+  {
+    "id": "e002",
+    "category": "energy",
+    "title": "Set AC thermostat to 24°C instead of 18°C",
+    "description": "Every 1°C increase in AC set-point saves 6% electricity. Raising from 18°C to 24°C saves ~36% on cooling costs — BEE India recommends 24°C as optimal.",
+    "co2SavedPerMonth": 28.3,
+    "difficulty": "Easy",
+    "unit": "per month (6-hour AC use daily, 1.5-ton unit)",
+    "tags": ["ac", "cooling", "electricity"]
+  },
+  {
+    "id": "e003",
+    "category": "energy",
+    "title": "Install a rooftop solar panel system",
+    "description": "A 2 kW rooftop solar system generates ~200–240 kWh/month in most Indian cities, replacing grid electricity (0.708 kg CO₂e/kWh) with solar (0.041 kg CO₂e/kWh).",
+    "co2SavedPerMonth": 133.4,
+    "difficulty": "Hard",
+    "unit": "per month (2 kW system, 5 peak sun hours)",
+    "tags": ["solar", "renewable", "rooftop"]
+  },
+  {
+    "id": "e004",
+    "category": "energy",
+    "title": "Switch to 5-star BEE-rated appliances",
+    "description": "A 5-star AC uses ~22% less energy than a 3-star model. A 5-star refrigerator saves up to 40% vs older models. Upgrades pay back in 2–4 years through electricity savings.",
+    "co2SavedPerMonth": 18.9,
+    "difficulty": "Hard",
+    "unit": "per month (AC + refrigerator upgrade)",
+    "tags": ["appliances", "efficiency", "beerating"]
+  },
+  {
+    "id": "e005",
+    "category": "energy",
+    "title": "Unplug devices in standby mode",
+    "description": "Standby power ('vampire load') accounts for 10% of household electricity use. Unplugging TVs, chargers, and set-top boxes when idle saves ~15–20 kWh/month.",
+    "co2SavedPerMonth": 12.7,
+    "difficulty": "Easy",
+    "unit": "per month (15 kWh saved)",
+    "tags": ["standby", "electricity", "behaviour"]
+  },
+  {
+    "id": "e006",
+    "category": "energy",
+    "title": "Use solar water heater instead of electric geyser",
+    "description": "An electric geyser heating 100 litres daily uses ~1.5 kWh. A solar water heater covers 70–80% of this need year-round in Indian climates, saving ~30 kWh/month.",
+    "co2SavedPerMonth": 21.2,
+    "difficulty": "Hard",
+    "unit": "per month (100 L/day, 300 sunny days/yr average)",
+    "tags": ["solar", "water", "heating"]
+  },
+  {
+    "id": "e007",
+    "category": "energy",
+    "title": "Switch from LPG to induction cooking",
+    "description": "Induction cooktops are 84% efficient vs 40% for LPG burners. However, since India's grid is coal-heavy, this is most beneficial combined with renewable electricity.",
+    "co2SavedPerMonth": 8.4,
+    "difficulty": "Medium",
+    "unit": "per month (moderate cooking, 50% renewable grid)",
+    "tags": ["cooking", "induction", "lpg"]
+  },
+  {
+    "id": "e008",
+    "category": "energy",
+    "title": "Use ceiling fan instead of AC when below 28°C",
+    "description": "A ceiling fan uses 70–75W vs 1,500W for a 1.5-ton AC — 95% less electricity. Using a fan on mild days and saving AC for the hottest periods saves significant energy.",
+    "co2SavedPerMonth": 38.6,
+    "difficulty": "Easy",
+    "unit": "per month (fan 8 hrs, AC 2 hrs vs AC 8 hrs daily)",
+    "tags": ["fan", "cooling", "ac"]
+  },
+  {
+    "id": "e009",
+    "category": "energy",
+    "title": "Wash clothes in cold water",
+    "description": "Heating water for laundry accounts for 90% of a washing machine's energy use. Cold water washes are equally effective for most fabrics and save 0.5 kWh per load.",
+    "co2SavedPerMonth": 7.1,
+    "difficulty": "Easy",
+    "unit": "per month (20 loads/month)",
+    "tags": ["laundry", "water", "electricity"]
+  },
+  {
+    "id": "e010",
+    "category": "energy",
+    "title": "Install motion sensor lights in common areas",
+    "description": "Motion-sensor lights in hallways, bathrooms, and staircases eliminate the ~30% of lighting energy wasted when rooms are empty but lights are left on.",
+    "co2SavedPerMonth": 5.3,
+    "difficulty": "Medium",
+    "unit": "per month (3 rooms, 4 hrs/day saved)",
+    "tags": ["lighting", "sensor", "behaviour"]
+  },
+  {
+    "id": "e011",
+    "category": "energy",
+    "title": "Opt for green power tariff from your DISCOM",
+    "description": "Several Indian DISCOMs now offer green tariffs where your electricity is sourced from renewable projects. Check TPDDL, BESCOM, and MSEDCL for renewable purchase options.",
+    "co2SavedPerMonth": 49.6,
+    "difficulty": "Medium",
+    "unit": "per month (70 kWh average home consumption)",
+    "tags": ["greenpower", "renewable", "discom"]
+  },
+  {
+    "id": "e012",
+    "category": "energy",
+    "title": "Use a pressure cooker for cooking",
+    "description": "Pressure cookers reduce cooking time by 50–75%, cutting LPG use proportionally. For dal, rice, and legumes — the backbone of Indian meals — this is highly effective.",
+    "co2SavedPerMonth": 4.8,
+    "difficulty": "Easy",
+    "unit": "per month (1 LPG cylinder saved every 3 months)",
+    "tags": ["cooking", "lpg", "pressure-cooker"]
+  },
+  {
+    "id": "f001",
+    "category": "food",
+    "title": "Go meat-free on Mondays (Meatless Monday)",
+    "description": "Beef produces 27 kg CO₂e per kg; chicken 6.9 kg/kg. Replacing meat with lentils (0.9 kg CO₂e/kg) or vegetables (2.0 kg/kg) one day per week yields meaningful savings.",
+    "co2SavedPerMonth": 12.6,
+    "difficulty": "Easy",
+    "unit": "per month (4 meat-free Mondays, 200g meat/meal avoided)",
+    "tags": ["meatless", "diet", "plantbased"]
+  },
+  {
+    "id": "f002",
+    "category": "food",
+    "title": "Replace beef with chicken or fish",
+    "description": "Beef has 4× the carbon footprint of chicken (27 vs 6.9 kg CO₂e/kg). Switching 1 kg of beef per week to chicken saves over 80 kg CO₂e per month.",
+    "co2SavedPerMonth": 81.2,
+    "difficulty": "Medium",
+    "unit": "per month (1 kg beef/week replaced)",
+    "tags": ["beef", "chicken", "diet"]
+  },
+  {
+    "id": "f003",
+    "category": "food",
+    "title": "Eat one fully plant-based meal per day",
+    "description": "A plant-based meal (dal, sabzi, roti) averages ~0.5 kg CO₂e vs a mixed meal (~1.5 kg CO₂e). One daily plant-based meal saves ~30 kg CO₂e per month.",
+    "co2SavedPerMonth": 30.0,
+    "difficulty": "Easy",
+    "unit": "per month (30 plant-based meals)",
+    "tags": ["vegan", "plantbased", "daily"]
+  },
+  {
+    "id": "f004",
+    "category": "food",
+    "title": "Buy locally grown seasonal produce",
+    "description": "Imported and out-of-season produce travels thousands of kilometres. Buying from local mandis or kisan bazaars cuts transport emissions and supports Indian farmers.",
+    "co2SavedPerMonth": 8.5,
+    "difficulty": "Easy",
+    "unit": "per month (10 kg produce, 500 km avg transport saved)",
+    "tags": ["local", "seasonal", "produce"]
+  },
+  {
+    "id": "f005",
+    "category": "food",
+    "title": "Reduce food waste by meal planning",
+    "description": "~14% of India's food is wasted before purchase; ~17% at household level. Food in landfills produces methane, a potent greenhouse gas. Planning meals cuts this directly.",
+    "co2SavedPerMonth": 15.3,
+    "difficulty": "Easy",
+    "unit": "per month (30% reduction in household food waste)",
+    "tags": ["waste", "planning", "methane"]
+  },
+  {
+    "id": "f006",
+    "category": "food",
+    "title": "Compost kitchen scraps instead of binning",
+    "description": "Organic waste in landfills produces methane (28× stronger than CO₂ over 100 years). Home composting diverts this waste and produces free fertiliser for your garden.",
+    "co2SavedPerMonth": 11.2,
+    "difficulty": "Medium",
+    "unit": "per month (5 kg/week of kitchen waste composted)",
+    "tags": ["compost", "waste", "methane"]
+  },
+  {
+    "id": "f007",
+    "category": "food",
+    "title": "Reduce dairy consumption by 50%",
+    "description": "Dairy production emits 3.2 kg CO₂e per kg of product. India is the world's largest dairy producer; cutting dairy by half and replacing with plant milks reduces methane from cattle.",
+    "co2SavedPerMonth": 19.2,
+    "difficulty": "Medium",
+    "unit": "per month (6 kg dairy/month replaced with 3 kg)",
+    "tags": ["dairy", "milk", "cattle"]
+  },
+  {
+    "id": "f008",
+    "category": "food",
+    "title": "Grow a kitchen herb garden",
+    "description": "Growing coriander, mint, curry leaves, and chillies at home eliminates packaging, transport, and refrigeration emissions for these frequently purchased items.",
+    "co2SavedPerMonth": 3.8,
+    "difficulty": "Easy",
+    "unit": "per month (herbs previously bought weekly)",
+    "tags": ["garden", "herbs", "home"]
+  },
+  {
+    "id": "f009",
+    "category": "food",
+    "title": "Choose loose-leaf tea over tea bags",
+    "description": "Pyramid tea bags use plastic nylon mesh that microplastics shed into your cup. Loose-leaf tea has minimal packaging and zero plastic. A simple, zero-cost switch.",
+    "co2SavedPerMonth": 1.2,
+    "difficulty": "Easy",
+    "unit": "per month (packaging and plastic reduction)",
+    "tags": ["tea", "plastic", "packaging"]
+  },
+  {
+    "id": "f010",
+    "category": "food",
+    "title": "Eat more rice and pulses, less bread",
+    "description": "Rice emits 2.7 kg CO₂e/kg and pulses only 0.9 kg CO₂e/kg — far below wheat bread at ~1.4 kg/kg once processing and packaging are counted. This is already India's strength.",
+    "co2SavedPerMonth": 5.4,
+    "difficulty": "Easy",
+    "unit": "per month (shifting 2 kg bread/week to dals)",
+    "tags": ["rice", "pulses", "dal"]
+  },
+  {
+    "id": "f011",
+    "category": "food",
+    "title": "Buy in bulk to reduce packaging waste",
+    "description": "Single-serve packaging generates 3–5× more plastic per gram of food. Buying atta, rice, sugar, and lentils in 5–10 kg sacks dramatically cuts per-unit packaging emissions.",
+    "co2SavedPerMonth": 6.7,
+    "difficulty": "Easy",
+    "unit": "per month (5 staple items bought in bulk)",
+    "tags": ["bulk", "packaging", "plastic"]
+  },
+  {
+    "id": "f012",
+    "category": "food",
+    "title": "Avoid beef once a week (if you eat it)",
+    "description": "Beef is the highest-carbon food at 27 kg CO₂e/kg — 4× chicken, 30× pulses. Even a single meal reduction per week makes a measurable impact.",
+    "co2SavedPerMonth": 16.2,
+    "difficulty": "Easy",
+    "unit": "per month (4 beef meals of 150g replaced with chicken)",
+    "tags": ["beef", "weekly", "reduction"]
+  },
+  {
+    "id": "s001",
+    "category": "shopping",
+    "title": "Buy second-hand clothing (thrift shopping)",
+    "description": "New clothing production emits ~30 kg CO₂e per garment (DEFRA 2023). Second-hand clothes have near-zero production emissions. Platforms: OLX, ThriftedIndia, Vinted.",
+    "co2SavedPerMonth": 60.0,
+    "difficulty": "Easy",
+    "unit": "per month (2 new garments replaced with thrifted)",
+    "tags": ["clothing", "thrift", "secondhand"]
+  },
+  {
+    "id": "s002",
+    "category": "shopping",
+    "title": "Extend smartphone use by 1 extra year",
+    "description": "A smartphone's manufacturing accounts for 70–80% of its lifetime carbon footprint (~70 kg CO₂e). Using your phone one extra year cuts annual manufacturing demand by half.",
+    "co2SavedPerMonth": 5.8,
+    "difficulty": "Easy",
+    "unit": "per month (amortised over 1 extra year)",
+    "tags": ["phone", "electronics", "extend"]
+  },
+  {
+    "id": "s003",
+    "category": "shopping",
+    "title": "Repair clothing instead of replacing",
+    "description": "Extending a garment's life by 9 months cuts its carbon, water, and waste footprints by 20–30%. A cobbler or tailor fixes most common wear issues for ₹50–200.",
+    "co2SavedPerMonth": 10.0,
+    "difficulty": "Easy",
+    "unit": "per month (2 garments repaired vs replaced)",
+    "tags": ["repair", "clothing", "extend"]
+  },
+  {
+    "id": "s004",
+    "category": "shopping",
+    "title": "Use cloth bags instead of plastic bags",
+    "description": "A single-use plastic bag emits ~1.6 kg CO₂e over its lifecycle. A cotton tote reused 50+ times has a per-use footprint 30× lower. Mandatory in many Indian states since 2022.",
+    "co2SavedPerMonth": 3.2,
+    "difficulty": "Easy",
+    "unit": "per month (20 plastic bags avoided)",
+    "tags": ["plastic", "bags", "cloth"]
+  },
+  {
+    "id": "s005",
+    "category": "shopping",
+    "title": "Avoid fast fashion: buy fewer, better quality clothes",
+    "description": "Fast fashion garments are typically worn 7–10 times before disposal. Quality clothing worn 50+ times dramatically reduces per-wear carbon cost.",
+    "co2SavedPerMonth": 15.0,
+    "difficulty": "Medium",
+    "unit": "per month (1 fewer impulsive fashion purchase)",
+    "tags": ["fastfashion", "quality", "clothing"]
+  },
+  {
+    "id": "s006",
+    "category": "shopping",
+    "title": "Batch online orders to reduce deliveries",
+    "description": "Each last-mile delivery emits ~0.5 kg CO₂e. Waiting to consolidate 4 separate orders into 1 saves 3 delivery trips — simple and free.",
+    "co2SavedPerMonth": 6.0,
+    "difficulty": "Easy",
+    "unit": "per month (12 reduced delivery trips)",
+    "tags": ["delivery", "online", "batch"]
+  },
+  {
+    "id": "s007",
+    "category": "shopping",
+    "title": "Borrow or rent tools and equipment",
+    "description": "Power tools used 12–13 times per year can be rented from hardware stores. Shared tools mean fewer units manufactured, directly cutting embodied carbon.",
+    "co2SavedPerMonth": 8.3,
+    "difficulty": "Medium",
+    "unit": "per month (3 tool rentals vs purchases)",
+    "tags": ["rental", "tools", "share"]
+  },
+  {
+    "id": "s008",
+    "category": "shopping",
+    "title": "Switch to refillable personal care products",
+    "description": "Shampoo bars, soap blocks, and refill pouches for hand wash use 60–90% less plastic packaging than standard bottles. Many Indian brands now offer refill options.",
+    "co2SavedPerMonth": 2.4,
+    "difficulty": "Easy",
+    "unit": "per month (shampoo, soap, hand wash)",
+    "tags": ["plastic", "personal-care", "refill"]
+  },
+  {
+    "id": "s009",
+    "category": "shopping",
+    "title": "Sell or donate old electronics instead of discarding",
+    "description": "E-waste in landfills leaches toxins and wastes the embodied carbon already invested in manufacturing. Old phones, laptops, and gadgets have active resale markets on OLX, Cashify.",
+    "co2SavedPerMonth": 4.5,
+    "difficulty": "Easy",
+    "unit": "per item responsibly disposed (amortised monthly)",
+    "tags": ["ewaste", "donate", "electronics"]
+  },
+  {
+    "id": "s010",
+    "category": "shopping",
+    "title": "Choose products with minimal packaging",
+    "description": "In a supermarket, 70% of packaging is unnecessary. Choosing loose vegetables, unboxed products, and brands using minimal packaging reduces upstream production emissions.",
+    "co2SavedPerMonth": 5.0,
+    "difficulty": "Easy",
+    "unit": "per month (weekly grocery shopping)",
+    "tags": ["packaging", "zero-waste", "groceries"]
+  },
+  {
+    "id": "s011",
+    "category": "shopping",
+    "title": "Buy Indian-manufactured products",
+    "description": "Products imported from China, Europe, or the US carry significant shipping emissions (~0.012 kg CO₂e/tonne-km by sea). Choosing 'Make in India' products reduces transport footprint.",
+    "co2SavedPerMonth": 7.8,
+    "difficulty": "Medium",
+    "unit": "per month (5 product switches to domestic brands)",
+    "tags": ["local", "makeinIndia", "manufacturing"]
+  },
+  {
+    "id": "a001",
+    "category": "advocacy",
+    "title": "Talk to 3 friends or family about your footprint",
+    "description": "Social influence is among the most powerful drivers of behaviour change. Sharing your CarbonZero score and pledges with friends multiplies the impact beyond your own household.",
+    "co2SavedPerMonth": 25.0,
+    "difficulty": "Easy",
+    "unit": "estimated indirect savings (3 people influenced)",
+    "tags": ["social", "influence", "conversation"]
+  },
+  {
+    "id": "a002",
+    "category": "advocacy",
+    "title": "Write to your local MP/MLA about climate policy",
+    "description": "Political representation matters. A single letter from a constituent on climate policy is statistically weighted as representing 50–100 unheard constituents.",
+    "co2SavedPerMonth": 50.0,
+    "difficulty": "Medium",
+    "unit": "estimated policy leverage (systemic change)",
+    "tags": ["political", "policy", "letter"]
+  },
+  {
+    "id": "a003",
+    "category": "advocacy",
+    "title": "Join or support a local tree-planting initiative",
+    "description": "A mature tree absorbs ~21 kg CO₂ per year. Volunteering in urban afforestation drives (common in Delhi, Mumbai, Bengaluru) directly sequester carbon from the atmosphere.",
+    "co2SavedPerMonth": 8.8,
+    "difficulty": "Medium",
+    "unit": "per month (5 trees planted per session, quarterly)",
+    "tags": ["trees", "planting", "sequestration"]
+  },
+  {
+    "id": "a004",
+    "category": "advocacy",
+    "title": "Share climate content on social media",
+    "description": "Consistent, credible climate communication on Instagram, LinkedIn, or Twitter/X normalises low-carbon behaviour and can reach hundreds of people in your network.",
+    "co2SavedPerMonth": 15.0,
+    "difficulty": "Easy",
+    "unit": "estimated indirect savings (audience reach)",
+    "tags": ["social-media", "communication", "influence"]
+  },
+  {
+    "id": "a005",
+    "category": "advocacy",
+    "title": "Ask your employer to measure and reduce office emissions",
+    "description": "Office buildings account for a major share of India's commercial energy use. Requesting a carbon audit, LED upgrade, or WFH policy costs nothing and can move large amounts of emissions.",
+    "co2SavedPerMonth": 40.0,
+    "difficulty": "Hard",
+    "unit": "estimated savings (50-person office, basic measures)",
+    "tags": ["workplace", "office", "corporate"]
+  },
+  {
+    "id": "a006",
+    "category": "advocacy",
+    "title": "Switch to a bank or fund with ESG commitments",
+    "description": "Banks invest your deposits. Fossil fuel projects are still funded by major Indian PSU banks. ESG-aligned banks and mutual funds channel capital toward clean energy instead.",
+    "co2SavedPerMonth": 30.0,
+    "difficulty": "Hard",
+    "unit": "estimated leverage per ₹1 lakh invested annually",
+    "tags": ["finance", "esg", "bank"]
+  },
+  {
+    "id": "a007",
+    "category": "advocacy",
+    "title": "Educate your children's school on sustainability",
+    "description": "Schools shape habits for life. Approaching your school's management committee with a sustainability proposal — waste reduction, energy audit, green curriculum — creates lasting change.",
+    "co2SavedPerMonth": 20.0,
+    "difficulty": "Hard",
+    "unit": "estimated impact (200-student school, basic programme)",
+    "tags": ["education", "school", "children"]
+  },
+  {
+    "id": "a008",
+    "category": "advocacy",
+    "title": "Participate in a local climate strike or march",
+    "description": "Public demonstrations signal to policymakers that climate action has a strong voting constituency. Attendance at Fridays for Future or local climate events amplifies systemic pressure.",
+    "co2SavedPerMonth": 35.0,
+    "difficulty": "Medium",
+    "unit": "estimated systemic policy influence",
+    "tags": ["activism", "march", "systemic"]
+  },
+  {
+    "id": "a009",
+    "category": "advocacy",
+    "title": "Choose climate-conscious brands and vote with your wallet",
+    "description": "Consumer demand shifts corporate behaviour. Supporting brands with verified net-zero commitments (like Tata Power, Mahindra Electric, and Paper Boat) rewards low-carbon supply chains.",
+    "co2SavedPerMonth": 12.0,
+    "difficulty": "Easy",
+    "unit": "estimated upstream corporate savings",
+    "tags": ["consumer", "brand", "corporate"]
+  },
+  {
+    "id": "a010",
+    "category": "advocacy",
+    "title": "Volunteer with a river or beach clean-up drive",
+    "description": "Plastic pollution in waterways contributes to methane emissions from decomposing organic waste. Clean-up events (in Mumbai, Goa, Chennai) prevent plastic from entering marine ecosystems.",
+    "co2SavedPerMonth": 5.0,
+    "difficulty": "Medium",
+    "unit": "per event (methane and ocean sink preservation)",
+    "tags": ["cleanUp", "plastic", "water"]
+  },
+  {
+    "id": "a011",
+    "category": "advocacy",
+    "title": "Buy carbon offsets for unavoidable flights",
+    "description": "When flying is unavoidable, purchase verified carbon offsets through Gold Standard or VERRA-certified Indian projects — e.g., cookstove programmes in rural Jharkhand or solar in Rajasthan.",
+    "co2SavedPerMonth": 80.0,
+    "difficulty": "Easy",
+    "unit": "per offset purchase (1 tonne CO₂e ~₹900–₹1,500)",
+    "tags": ["offset", "flight", "carbon-credit"]
+  }
+]

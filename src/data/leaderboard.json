@@ -1,0 +1,22 @@
+[
+  { "rank": 1,  "displayName": "Arjun S.",     "city": "Bengaluru", "state": "Karnataka",     "co2ReducedKg": 312.4, "daysActive": 47, "grade": "A", "badges": ["first_step","green_commuter","week_warrior"] },
+  { "rank": 2,  "displayName": "Priya M.",     "city": "Mumbai",    "state": "Maharashtra",   "co2ReducedKg": 289.1, "daysActive": 41, "grade": "A", "badges": ["first_step","solar_champ"] },
+  { "rank": 3,  "displayName": "Rohan T.",     "city": "Pune",      "state": "Maharashtra",   "co2ReducedKg": 256.8, "daysActive": 38, "grade": "A", "badges": ["first_step","plant_pioneer"] },
+  { "rank": 4,  "displayName": "Ananya K.",    "city": "Chennai",   "state": "Tamil Nadu",    "co2ReducedKg": 234.5, "daysActive": 35, "grade": "B", "badges": ["first_step","green_commuter"] },
+  { "rank": 5,  "displayName": "Vikram P.",    "city": "Hyderabad", "state": "Telangana",     "co2ReducedKg": 218.3, "daysActive": 33, "grade": "B", "badges": ["first_step","week_warrior"] },
+  { "rank": 6,  "displayName": "Neha R.",      "city": "Delhi",     "state": "Delhi",         "co2ReducedKg": 201.7, "daysActive": 31, "grade": "B", "badges": ["first_step","eco_sharer"] },
+  { "rank": 7,  "displayName": "Siddharth L.", "city": "Ahmedabad", "state": "Gujarat",       "co2ReducedKg": 187.2, "daysActive": 29, "grade": "B", "badges": ["first_step","solar_champ"] },
+  { "rank": 8,  "displayName": "Kavya N.",     "city": "Kolkata",   "state": "West Bengal",   "co2ReducedKg": 174.9, "daysActive": 27, "grade": "B", "badges": ["first_step"] },
+  { "rank": 9,  "displayName": "Aditya V.",    "city": "Jaipur",    "state": "Rajasthan",     "co2ReducedKg": 163.4, "daysActive": 25, "grade": "C", "badges": ["first_step","green_commuter"] },
+  { "rank": 10, "displayName": "Meera J.",     "city": "Surat",     "state": "Gujarat",       "co2ReducedKg": 152.8, "daysActive": 24, "grade": "C", "badges": ["first_step"] },
+  { "rank": 11, "displayName": "Rahul G.",     "city": "Lucknow",   "state": "Uttar Pradesh", "co2ReducedKg": 144.3, "daysActive": 22, "grade": "C", "badges": ["first_step","plant_pioneer"] },
+  { "rank": 12, "displayName": "Sneha B.",     "city": "Nagpur",    "state": "Maharashtra",   "co2ReducedKg": 136.1, "daysActive": 21, "grade": "C", "badges": ["first_step"] },
+  { "rank": 13, "displayName": "Kiran A.",     "city": "Indore",    "state": "Madhya Pradesh","co2ReducedKg": 128.7, "daysActive": 20, "grade": "C", "badges": ["first_step","eco_sharer"] },
+  { "rank": 14, "displayName": "Pooja D.",     "city": "Bhopal",    "state": "Madhya Pradesh","co2ReducedKg": 121.4, "daysActive": 19, "grade": "C", "badges": ["first_step"] },
+  { "rank": 15, "displayName": "Amit C.",      "city": "Coimbatore","state": "Tamil Nadu",    "co2ReducedKg": 114.2, "daysActive": 18, "grade": "C", "badges": ["first_step","green_commuter"] },
+  { "rank": 16, "displayName": "Divya S.",     "city": "Kochi",     "state": "Kerala",        "co2ReducedKg": 107.8, "daysActive": 17, "grade": "D", "badges": ["first_step"] },
+  { "rank": 17, "displayName": "Suresh K.",    "city": "Vadodara",  "state": "Gujarat",       "co2ReducedKg": 98.5,  "daysActive": 15, "grade": "D", "badges": ["first_step"] },
+  { "rank": 18, "displayName": "Tanya M.",     "city": "Visakhapatnam", "state": "Andhra Pradesh", "co2ReducedKg": 89.3, "daysActive": 14, "grade": "D", "badges": ["first_step"] },
+  { "rank": 19, "displayName": "Nikhil R.",    "city": "Chandigarh","state": "Punjab",        "co2ReducedKg": 78.1,  "daysActive": 12, "grade": "D", "badges": ["first_step"] },
+  { "rank": 20, "displayName": "Lakshmi P.",   "city": "Trivandrum","state": "Kerala",        "co2ReducedKg": 67.4,  "daysActive": 10, "grade": "D", "badges": ["first_step"] }
+]

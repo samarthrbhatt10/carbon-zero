@@ -1,0 +1,56 @@
+{
+  "transport": {
+    "car_petrol_per_km": 0.192,
+    "car_diesel_per_km": 0.171,
+    "car_electric_per_km": 0.053,
+    "flight_domestic_per_km": 0.255,
+    "flight_international_per_km": 0.195,
+    "bus_per_km": 0.089,
+    "train_per_km": 0.041,
+    "motorcycle_per_km": 0.114,
+    "autorickshaw_per_km": 0.096
+  },
+  "energy": {
+    "india_grid_electricity_per_kwh": 0.708,
+    "lpg_per_kg": 2.983,
+    "png_per_scm": 2.204,
+    "solar_per_kwh": 0.041
+  },
+  "diet": {
+    "beef_per_kg": 27.0,
+    "lamb_per_kg": 39.2,
+    "chicken_per_kg": 6.9,
+    "pork_per_kg": 12.1,
+    "fish_per_kg": 6.1,
+    "dairy_per_kg": 3.2,
+    "vegetables_per_kg": 2.0,
+    "rice_per_kg": 2.7,
+    "pulses_per_kg": 0.9
+  },
+  "shopping": {
+    "clothing_per_item": 30.0,
+    "electronics_smartphone": 70.0,
+    "electronics_laptop": 350.0,
+    "online_order_delivery": 0.5
+  },
+  "sources": {
+    "transport": "IPCC AR6 Working Group III (2022); UK DEFRA GHG Conversion Factors 2023",
+    "energy_grid": "India CEA CO2 Baseline Database for Electricity Generation, Version 19 (2023)",
+    "energy_lpg": "IPCC 2006 Guidelines for National GHG Inventories, Volume 2, Chapter 2",
+    "energy_solar": "IPCC AR6 WGIII Annex III — lifecycle GHG emissions of solar PV",
+    "diet": "Poore & Nemecek (2018), Science 360(6392): 987–992; FAOSTAT; UK DEFRA 2023",
+    "shopping_clothing": "UK DEFRA GHG Conversion Factors 2023 — textile manufacturing",
+    "shopping_electronics": "Lifecycle carbon footprint of consumer electronics: Apple Environmental Reports 2023; IEA",
+    "shopping_delivery": "CE Delft (2020), 'Bunch Up: The environmental impact of last-mile delivery'"
+  },
+  "benchmarks": {
+    "india_average_annual_tCO2e": 1.9,
+    "global_average_annual_tCO2e": 4.7,
+    "paris_target_annual_tCO2e": 2.3,
+    "source_india": "World Bank, CO2 emissions (metric tons per capita), India 2022",
+    "source_global": "Our World in Data, Per capita CO2 emissions 2022",
+    "source_paris": "IPCC SR1.5 (2018) — equitable per-capita share of 1.5°C carbon budget by 2030"
+  },
+  "version": "IPCC-AR6-DEFRA2023-CEA2023",
+  "lastUpdated": "2024-01-01"
+}
